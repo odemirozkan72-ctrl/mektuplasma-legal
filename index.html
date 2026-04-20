@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bilinmeyenden Mektup — Yasal Belgeler</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --paper: #f7f3ee;
+    --sepia: #8b6f47;
+    --sepia-light: #c4a882;
+    --rule: #d4c5b0;
+    --accent: #4a3728;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center {
+    text-align: center;
+    padding: 40px 24px;
+  }
+
+  .envelope {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .app-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--sepia-light);
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: var(--sepia-light);
+    margin-bottom: 40px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .link-card {
+    display: block;
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 24px;
+    text-decoration: none;
+    color: var(--accent);
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .link-card:hover {
+    box-shadow: 0 4px 16px rgba(139,111,71,0.12);
+    transform: translateY(-2px);
+  }
+
+  .link-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .link-desc {
+    font-size: 12px;
+    color: var(--sepia-light);
+  }
+
+  footer {
+    margin-top: 48px;
+    font-size: 12px;
+    color: var(--sepia-light);
+  }
+</style>
+</head>
+<body>
+<div class="center">
+  <div class="envelope">✉️</div>
+  <div class="app-name">Bilinmeyenden Mektup</div>
+  <h1>Yasal Belgeler</h1>
+  <p class="subtitle">B.Mektup uygulamasına ait resmi belgeler</p>
+
+  <div class="links">
+    <a href="privacy-policy.html" class="link-card">
+      <span class="link-title">Gizlilik Politikası</span>
+      <span class="link-desc">Verilerinizin nasıl korunduğunu öğrenin</span>
+    </a>
+    <a href="terms.html" class="link-card">
+      <span class="link-title">Kullanım Koşulları</span>
+      <span class="link-desc">Uygulama kullanım şartları</span>
+    </a>
+  </div>
+
+  <footer>© 2025 Özkan Özdemir</footer>
+</div>
+</body>
+</html>
